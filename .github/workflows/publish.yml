@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: dansylvest/eve-route-builder
+          images: wandererltd/eve-route-builder
 
       - name: Build and push Docker image
         id: push
