@@ -51,3 +51,4 @@ jobs:
           build-args: |
             MIX_ENV=prod
             ERL_FLAGS=+JMsingle true
+            SDE_BUILD_ID=${{ github.run_id }}-${{ github.run_attempt }}

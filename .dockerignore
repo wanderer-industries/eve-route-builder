@@ -32,3 +32,5 @@
 
 # Static artifacts - These should be fetched and built inside the Docker image
 /node_modules/
+/eveData/
+/deploy/eveData/
